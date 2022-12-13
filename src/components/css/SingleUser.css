@@ -1,0 +1,9 @@
+.userblock {
+    width: 1000px;
+    margin: auto;
+}
+
+.actions button {
+    margin-left: 2px;
+    margin-right: 2px;
+}

@@ -1,0 +1,41 @@
+header {
+    margin-bottom: 30px;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+}
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 767px) {
+    svg#rocket-smoke {
+        right: 120px;
+        transform: rotate(-5deg);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+        display: none;
+        visibility: hidden;
+    }
+}
